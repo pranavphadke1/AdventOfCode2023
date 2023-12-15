@@ -1,7 +1,7 @@
 day = 1
 
 with open(f"Inputs/day{day}.txt") as f:
-    lines = f.read().split()
+    lines = f.read().splitlines()
 
 
 # Part 1
